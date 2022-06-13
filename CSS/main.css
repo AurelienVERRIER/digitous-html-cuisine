@@ -17,7 +17,7 @@ header{
     height: 100vh;
 }
 
-   nav{
+nav{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -63,4 +63,33 @@ header p{
     justify-content: center;
     height: 20vh;
     align-items: center;
+}
+
+article img{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+article h3{
+    font-family: "Courgette";
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+article p{
+    font-family: "Oswald";
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:black;
 }
