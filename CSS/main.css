@@ -97,8 +97,36 @@ main a{
     color:black;
 }
 
-footer{
-    background-color: black;
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+}
+
+footer h3 {
+    font-family: "Courgette";
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+footer h4 {
+    font-family: "Courgette";
+    padding-top: 5px;
+    font-size: 1em;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: #fff;
+
 }
 
 footer h3{
