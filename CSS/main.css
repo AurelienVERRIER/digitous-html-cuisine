@@ -10,21 +10,35 @@ header{
     background-position: center;
     font-family: "Courgette";
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-nav{
+header .small_menu{
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+header .titre{
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav{
+    display: none;
 }
 
 header p{
     font-size: 2em;
 }
+
 
 #logo_blanc{
     width:75px;
@@ -211,11 +225,52 @@ footer img{
 }
 
 @media (min-width: 992px){
+    
+    #burger{
+        display: none;
+    }
+
+    .large_menu{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-family: "Oswald";
+        width: 500px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        font-weight: 200;
+    }
+
+    header a{
+        text-decoration: none;
+        margin-left: 15px;
+        color: grey;
+    }
+
+    .actual{
+        color:white;
+    }
+
+    .titre{
+        align-items: center;
+        height: 150vh;
+        margin-top: 0px;
+    }
+
     footer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+    
     .inscription {
         margin-top: 0px;
     }
