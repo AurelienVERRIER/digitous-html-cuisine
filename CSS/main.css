@@ -175,5 +175,14 @@ footer img{
 }
 
 @media screen AND (min-width: 768px) {
-    
+    .m-art {
+        display: flex;
+    }
+    .m-art .textes {
+        flex-direction: column;
+        width: 70%;
+    }
+    article img {
+        width: 30%;
+    }
 }
