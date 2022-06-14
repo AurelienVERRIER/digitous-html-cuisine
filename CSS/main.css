@@ -179,6 +179,17 @@ footer img{
 
 @media (min-width: 768px) and (max-width:992px){
 
+    .m-art {
+        display: flex;
+    }
+    .m-art .textes {
+        flex-direction: column;
+        width: 70%;
+    }
+    article img {
+        width: 30%;
+    }
     .inscription {
         margin-top: 0px;
+    }
 }
