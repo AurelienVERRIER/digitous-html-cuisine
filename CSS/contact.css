@@ -18,10 +18,18 @@
     font-weight: 100;
     line-height: 2em;
 }
+
 .map address {
-    margin-left: 50px;
+    margin-left: 0;
 }
 
+.gmap_canvas {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
 
 /* @media (min-width: 768px) and (max-width:991px) {
     iframe {
@@ -34,11 +42,19 @@
         display: flex;
     }
 
-    .map {
-        width: 80%;
+    .map address {
+        margin-left: 50px;
     }
 
-    iframe {
+    /* .map {
+        min-width: 80%;
+    } */
+
+    /* .gmap_canvas {
+        max-width: 80%;
+    } */
+
+    /* iframe {
         width: 100%;
-    }
+    } */
 }
