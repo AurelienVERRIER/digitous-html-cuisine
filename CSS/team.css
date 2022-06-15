@@ -8,3 +8,14 @@ header{
     display: flex;
     flex-direction: column;
 }
+
+header .titre{
+    align-items: center;
+    justify-content: center;
+}
+
+.team_faces img{
+    border-radius: 50%;
+}
+
+
